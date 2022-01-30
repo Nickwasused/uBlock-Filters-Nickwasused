@@ -1,0 +1,40 @@
+! bigger content
+www.reddit.com##:xpath(/html/body/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div[1]):style(width: 100% !important; max-width: 100% !important;)
+
+
+! stream viewers
+www.twitch.tv##:xpath(/html/body/div[1]/div[1]/div[2]/div[1]/main/div[2]/div[3]/div/div/div[1]/div[1]/div[2]/div/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div/p)
+www.twitch.tv##:xpath(/html/body/div[1]/div[1]/div[2]/div[1]/main/div[2]/div[3]/div/div/div[1]/div[1]/div[2]/div/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div/div/figure)
+www.twitch.tv##:xpath(/html/body/div[1]/div[1]/div[2]/div[1]/main/div[2]/div[3]/div/div/div/div/div/div[3]/div/div/div/div/div/article/div[2]/div[5]/a/div/div[3])
+! vod views
+www.twitch.tv##:xpath(/html/body/div[1]/div[1]/div[2]/div[1]/main/div[2]/div[3]/div/div/div/div/div/div[3]/div/div/div/article/div[2]/div/div[5]/a/div/div[3])
+www.twitch.tv##:xpath(/html/body/div[1]/div[1]/div[2]/div[1]/main/div[2]/div[3]/div/div/div/div/div/div[3]/div/div/div/article/div[2]/div/div[5]/a/div/div[4])
+
+
+||twitter.com^$removeparam=ref_src
+twitter.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2])
+twitter.com##:xpath(/html/body/div[1]/div/div/div[2]/main):style(width: 100% !important;)
+twitter.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]):style(max-width: 165% !important; width: 165% !important;)
+twitter.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/section/div/div/div):style(width: 272% !important; float: left)
+twitter.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]):style(margin-left: 0px !important; margin-right: 0px !important;)
+! hide retweets
+twitter.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/section/div/div/div/div/div/article/div/div/div/div[2]/div[2]/div[2]/div[3]/div/div[2]/div/div/div[2]/span/span/span)
+! hide likes
+twitter.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[4]/div/section/div/div/div/div/div/article/div/div/div/div[2]/div[2]/div[2]/div[3]/div/div[3]/div/div/div[2]/span/span/span)
+
+
+duckduckgo.com##:xpath(/html/body/div[2]/div[5]/div[3]/div/div[1]):style(width: 150% !important; max-width: 150% !important;)
+! bigger search results
+duckduckgo.com##:xpath(/html/body/div[2]/div[5]/div[3]/div/div[1]/div[5]/div/div):style(width: 100% !important; max-width: 100% !important;)
+! smaller snippet
+duckduckgo.com##:xpath(/html/body/div[2]/div[5]/div[3]/div/div[1]/div[5]/div/div/div[2]):style(width: 50% !important; max-width: 50% !important;)
+! bigger more button
+duckduckgo.com##:xpath(/html/body/div[2]/div[5]/div[3]/div/div[1]/div[5]/div):style(width: 60% !important; max-width: 60% !important;)
+duckduckgo.com##:xpath(/html/body/div[2]/div[5]/div[3]/div/div[1]/div[5]/div[11]/div)
+! more like this
+duckduckgo.com##:xpath(/html/body/div[3])
+! sidebar
+duckduckgo.com##:xpath(/html/body/div[2]/div[5]/div[3]/div/div[2])
+! feedback button
+duckduckgo.com##:xpath(/html/body/div[2]/div[5]/div[2]/div)
+duckduckgo.com##:xpath(/html/body/div[2]/div[3]/div/div/div[3])
